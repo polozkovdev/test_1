@@ -30,7 +30,7 @@ const Screen = () => {
           ))}
         </tr>
       </thead>
-      <tbody className={SM.TBody}>
+      <tbody>
         {data?.map((item) => {
           const Login = item.Login.slice(0, 5) + "****";
           return (

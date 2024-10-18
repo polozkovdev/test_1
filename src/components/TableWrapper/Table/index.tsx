@@ -1,9 +1,8 @@
 import classNames from "classnames";
-import { ITableProps } from "./ITableProps";
 import React, { useEffect, useRef, useState } from "react";
 import SM from "./index.module.scss";
 
-const Table: React.FC<ITableProps & React.HTMLAttributes<HTMLDivElement>> = ({
+const Table: React.FC<React.HTMLAttributes<HTMLDivElement>> = ({
   children,
   className,
 }) => {
