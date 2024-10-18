@@ -1,0 +1,6 @@
+@use "variables";
+
+@mixin fs($fs, $lh) {
+  font-size: $fs;
+  line-height: $lh;
+}

@@ -1,0 +1,16 @@
+.Row {
+  border-radius: 2rem;
+  padding: 1.8rem;
+  background: #181D26;
+}
+
+.HeadRow {
+  border-radius: 1rem;
+  color: #5F6F7A;
+}
+
+.TBody {
+  &:last-child {
+    margin-bottom: 0;
+  }
+}

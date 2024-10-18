@@ -1,0 +1,33 @@
+.Progress {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  transition: 120ms;
+}
+
+.Checkbox {
+  cursor: pointer;
+  width: 4.6rem;
+  height: 4.6rem;
+  background: rgb(40, 49, 62);
+  background: linear-gradient(90deg, rgba(40, 49, 62, 1) 0%, rgba(44, 64, 92, 1) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: .2rem;
+}
+
+.Radio {
+  cursor: pointer;
+  width: 1.8rem;
+  height: 1.8rem;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: transparent;
+  border: .1rem solid #FFFFFF;
+
+  &Active {
+    border-color: #C82323;
+    background-color: #C82323;
+  }
+}

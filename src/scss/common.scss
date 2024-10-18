@@ -1,0 +1,41 @@
+@import "variables";
+@import "mixins";
+
+html,
+body,
+#root {
+  min-height: 100vh;
+}
+
+body,
+#root {
+  height: 100%;
+}
+
+#root {
+  --white: #{white};
+}
+
+body {
+  background: rgb(17, 21, 28);
+  color: var(--white);
+  background: linear-gradient(25deg, rgba(17, 21, 28, 1) 0%, rgb(2, 2, 61) 100%, rgba(0, 212, 255, 1));
+  font-family: -apple-system, BlinkMacSystemFont, Poppins, "Segoe UI", "Roboto", "Oxygen",
+  "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+  sans-serif;
+  user-select: none;
+  @include fs(1.4rem, 1.8rem);
+}
+
+
+#root {
+  color: var(--white);
+
+  a {
+    outline: none;
+
+    &:focus {
+      outline: none;
+    }
+  }
+}

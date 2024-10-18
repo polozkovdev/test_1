@@ -1,0 +1,23 @@
+@use "src/scss/variables";
+@use "src/scss/mixins";
+
+.TableWrapper {
+  border-radius: 1rem;
+  overflow: hidden;
+  background: rgb(32, 41, 49);
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
+
+  &Body {
+    border-radius: 1rem;
+    flex-grow: 1;
+    max-width: 100%;
+    position: relative;
+  }
+
+  table {
+    border-spacing: 0 1rem;
+    width: 100%;
+  }
+}
